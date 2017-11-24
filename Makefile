@@ -148,6 +148,9 @@ linux_arm_dist:
 linux_arm64_dist:
 	GOOS=linux GOARCH=arm64 $(MAKE) dist
 
+linux_s390x_dist:
+	GOOS=linux GOARCH=s390x $(MAKE) dist
+
 darwin_amd64_dist:
 	GOOS=darwin GOARCH=amd64 $(MAKE) dist
 
